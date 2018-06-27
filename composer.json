@@ -1,0 +1,23 @@
+{
+    "name": "digital/clocks",
+    "description": "A Digital Clock will provide live current date and time as digital clock",
+    "type": "composer-plugin",
+    "license": "mit",
+    "authors": [
+        {
+            "name": "Deepak Parihar",
+            "email": "deshdeepak.parihar@dotsquares.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+    "classmap": [
+        "database"
+    ],
+    "psr-4": {
+        "App\\": "app/",
+        "Digital\\Clock\\": "packages/digital/clocks/src"
+    }
+  }
+}
